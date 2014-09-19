@@ -8,7 +8,7 @@ public static void main(String[] args) {
 	selenium.windowMaximize();
 	selenium.type("Email", "jan30selenium");//This is gmail login
 	selenium.type("Passwd", "selenium");
-	selenium.click("signIn");
+	selenium.click("signIn"); //end of the program
 	
 }
 }
