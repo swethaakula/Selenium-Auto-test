@@ -6,7 +6,7 @@ public static void main(String[] args) {
 	selenium.start();
 	selenium.open("/");
 	selenium.windowMaximize();
-	selenium.type("Email", "jan30selenium");
+	selenium.type("Email", "jan30selenium");//This is gmail login
 	selenium.type("Passwd", "selenium");
 	selenium.click("signIn");
 	
