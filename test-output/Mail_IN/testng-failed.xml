@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Mail_IN]" parallel="tests">
+  <test name="Spicejet Results(failed)" parallel="tests">
+    <classes>
+      <class name="testNG.SpicejetPopup">
+        <methods>
+          <include name="test5"/>
+          <include name="test4"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="test3"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testNG.SpicejetPopup -->
+    </classes>
+  </test> <!-- Spicejet Results(failed) -->
+  <test name="Spicejet Results1(failed)" parallel="tests">
+    <classes>
+      <class name="testNG.SpicejetPopup">
+        <methods>
+          <include name="test5"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testNG.SpicejetPopup -->
+    </classes>
+  </test> <!-- Spicejet Results1(failed) -->
+</suite> <!-- Failed suite [Mail_IN] -->

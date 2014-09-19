@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Grid" parallel="tests" thread-count="8" >
+	<test name="test1" >
+    	<classes>
+        	<class name="GridTestNG.GmailLogin_Logout" />  
+    	</classes>
+	</test>
+	<test name="test2">
+    	<classes>
+        	<class name="GridTestNG.MailLogin_WD" />  
+    	</classes>
+	</test>
+	<test name="test3">
+    	<classes>
+        	<class name="GridTestNG.Register_MailIN" />  
+    	</classes>
+	</test> 
+	<test name="test4">
+    	<classes>
+        	<class name="GridTestNG.Register_WebdriverBackedSelenium" />  
+    	</classes>
+	</test>
+</suite>

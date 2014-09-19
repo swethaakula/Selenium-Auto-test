@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Spicejet Test Suite">
+<test name="Spicejet Results">
+<classes>
+<class name="testNG.BookaHoliday_Inheritance"></class>
+<methods>
+<include name="verifyBookaHoliday"></include>
+</methods>
+</classes>
+</test>
+</suite>

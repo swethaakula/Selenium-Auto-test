@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Mail_IN" parallel="tests">
+<test name="Spicejet Results">
+<classes>
+<parameter name="browser" value="chrome"></parameter>
+<class name="testNG.SpicejetPopup"></class>
+</classes>
+</test>
+<test name="Spicejet Results1">
+<classes>
+<parameter name="browser" value="firefox"></parameter>
+<class name="testNG.SpicejetPopup"></class>
+</classes>
+</test>
+</suite>

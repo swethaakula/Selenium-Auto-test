@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Grid]">
+  <test name="test4(failed)">
+    <classes>
+      <class name="GridTestNG.Register_WebdriverBackedSelenium">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="f"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- GridTestNG.Register_WebdriverBackedSelenium -->
+      <class name="GridTestNG.GmailLogin_Logout">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- GridTestNG.GmailLogin_Logout -->
+      <class name="GridTestNG.MailLogin_WD">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- GridTestNG.MailLogin_WD -->
+      <class name="GridTestNG.Register_MailIN">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- GridTestNG.Register_MailIN -->
+    </classes>
+  </test> <!-- test4(failed) -->
+</suite> <!-- Failed suite [Grid] -->

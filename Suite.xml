@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Mail_IN" parallel="tests">
+<test name="DataDriven REsults">
+<classes>
+<class name="dataDrivenFramework.DriverScript"></class>
+</classes>
+</test>
+<test name="Ajax REsults">
+<classes>
+<class name="testNG.AjaxControl"></class>
+</classes>
+</test>
+<test name="Spicejet Results">
+<classes>
+<class name="testNG.SpicejetPopup"></class>
+</classes>
+</test>
+</suite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Spicejet Suite">
+<test name="Spicejet Test Results">
+<classes>
+<class name="testNG.SpicejetPopup">
+<methods>
+<include name="verifyURL"></include>
+<include name="verifyBookAFlight"></include>
+<include name="verifyOneWaySearch"></include>
+<include name="verifyJavaScriptAlert"></include>
+<include name="verifypopup"></include>
+</methods>
+</class>
+</classes>
+</test>
+</suite>
